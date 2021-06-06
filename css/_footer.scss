@@ -1,0 +1,47 @@
+footer {
+	padding: 10px 30px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	color: rgba(0, 0, 0, 0.54);
+	text-align: left;
+	font-size: 14px;
+
+	p {
+		padding-bottom: 15px;
+		padding-top: 10px;
+	}
+
+	hr {
+		border: 0;
+		border-top: 1px solid #ccc;
+	}
+
+	ul {
+		padding-top: 15px;
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+
+		li {
+			display: inline;
+			list-style-type: none;
+			padding-right: 30px;
+			float: left;
+
+			&.right-side {
+				float: right;
+			}
+
+			a {
+				color: rgba(0, 0, 0, 0.54);
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
